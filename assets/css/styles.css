@@ -1,0 +1,109 @@
+
+
+.mains{
+    /* TODO adjust height to 100% of viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color:  #efeff5;
+    margin: 0;
+    border-top: 1px solid rgb(188, 188, 188);
+}
+
+.mains h2{
+    padding-top: 1em;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    background-color: white;
+    border-top: 1px solid rgb(188, 188, 188);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10em;
+    border-top: 1px solid rgb(188, 188, 188);   
+    height: 90vh;
+    background-color:  #efeff5;
+}
+.about p{
+    margin: 3em;
+}
+
+
+
+.email-form{
+    display: flex;
+    justify-content: space-between;
+}
+.email-form button{
+    margin-left: 1em;
+}
+
+.cards-wrapper{
+    display: flex;
+    margin: 0 1em;
+}
+.card{
+    margin: 0 1em;
+}
+.destinations{
+    padding: 1em 0;
+    border-top: 1px solid rgb(188, 188, 188);
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column ;
+    height: 60vh;
+    width: 100%;
+    border-top: 1px solid rgb(188, 188, 188);
+    background-color:  #efeff5;
+}
+
+.subscribe h5{
+    color:  #999999;
+    display: flex;
+    text-align: center;
+}
+
+.logo{
+    height: 5em;
+    width: 5em;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    flex-direction: row ;
+    height: 15vh;
+}
+.last img{
+    margin: 1em;
+}
+.last ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-grow: 3;
+    align-items: center;
+    list-style-type: none;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
